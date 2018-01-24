@@ -23,6 +23,7 @@
 /.env*
 
 .rbenv-gemsets
+cloud9_plugins.sh
 examples.txt
 grades.yml
 whitelist.yml

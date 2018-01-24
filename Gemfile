@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'mailgun-ruby', '~>1.1.6'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
@@ -45,19 +47,22 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"
   gem 'dotenv-rails'
+  gem 'draft_log', github: 'firstdraft/draft_log'
   gem 'grade_runner', github: 'firstdraft/grade_runner'
   gem 'pry-rails'
   gem 'web_git', github: 'firstdraft/web_git'
+  gem 'awesome_print'
 end
 
 group :development do
   gem 'annotate'
   gem 'awesome_print'
-  gem 'better_errors'
-  gem 'binding_of_caller'
   gem 'dev_toolbar', github: 'firstdraft/dev_toolbar'
-  gem 'firstdraft_generators', github: 'firstdraft/firstdraft_generators'
+  gem 'draft_generators', github: 'firstdraft/draft_generators'
   gem 'letter_opener'
   gem 'meta_request'
 end
