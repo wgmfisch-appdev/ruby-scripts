@@ -183,7 +183,7 @@ Examine `file_input.rake`. `rails example_input_from_file` is already complete, 
 
 Locate `lib/input_files/example_input.txt`, modify the copy in it, and then run `rails example_input_from_file` again.
 
-Create your own input file, put some content in it, and make `rake your_own_input_from_file` do something interesting.
+Create your own input file, put some content in it, and make `rake your_own_input_from_file` output the content.
 
 ### rails word_count
 
