@@ -119,7 +119,7 @@ outputs a random quotation from the provided list, something like
 "A person who chases two rabbits catches neither. -- Confucius"
 ```
 
-Each time `rails quote` is run, a different quotation should be displayed.
+Each time `rails quote` is run, a random quotation should be displayed.
 
 ### rails play_rock
 
