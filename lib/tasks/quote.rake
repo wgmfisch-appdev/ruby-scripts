@@ -51,8 +51,7 @@ task :quote do
     },
   ]
 
-  # =====================================================================
-  # Your code goes below.
-  # =====================================================================
+  quote_chosen = quotations.sample
+  ap(quote_chosen.fetch(:quote) + " --" + quote_chosen.fetch(:citation))
 
 end

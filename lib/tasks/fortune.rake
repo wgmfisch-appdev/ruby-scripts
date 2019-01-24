@@ -8,8 +8,6 @@ task :fortune do
     "Every day in your life is a special occasion"
   ]
 
-  # =====================================================================
-  # Your code goes below.
-  # =====================================================================
+  ap(fortunes.sample)
 
 end
